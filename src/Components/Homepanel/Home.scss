@@ -1,0 +1,357 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+    box-shadow: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+    .left-navbar {
+        display: flex;
+        padding: 20px 80px;
+
+        img {
+            width: 140px;
+            height: 40px;
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                list-style: none;
+                padding: 12px 10px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    transition: 0.2s;
+                }
+
+                a:hover {
+                    color: rgb(184, 184, 184);
+                }
+            }
+        }
+    }
+
+    .right-navbar {
+        display: flex;
+        padding: 20px 20px;
+
+        #search {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        #bell {
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+
+        #user {
+            width: 40px;
+            height: 40px;
+        }
+
+        #searchplace {
+            width: 250px;
+            height: 30px;
+            margin-top: 2px;
+            margin-right: 10px;
+            border-radius: 5px;
+            background-color: #131313;
+            border: 1px solid white;
+            color: white;
+        }
+
+    }
+}
+
+
+.navbarbg {
+    background-color: #131313;
+    transition: 0.2s;
+}
+
+.panel1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/twdbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .infopanel {
+        position: absolute;
+        left: 85px;
+        top: 400px;
+
+        h1 {
+            color: white;
+            font-family: Impact;
+            letter-spacing: 2px;
+            font-size: 45px;
+        }
+
+        h3 {
+            color: rgb(202, 202, 202);
+            font-weight: lighter;
+            margin-top: 10px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+
+            #play {
+                width: 120px;
+                height: 40px;
+                font-size: 20px;
+                background-color: white;
+                color: black;
+                border-radius: 5px;
+                border: 1px solid white;
+                font-weight: bold;
+            }
+
+            #play:hover {
+                background-color: rgba(230, 230, 230, 0.851);
+            }
+
+
+            #info {
+                width: 200px;
+                height: 40px;
+                font-size: 20px;
+                background-color: rgba(146, 146, 146, 0.749);
+                border: 1px solid rgba(146, 146, 146, 0.749);
+                border-radius: 5px;
+                color: white;
+                margin-left: 30px;
+                font-weight: bold;
+            }
+
+            #info:hover {
+                background-color: rgba(146, 146, 146, 0.486);
+            }
+        }
+    }
+}
+
+.panel2 {
+    width: 100%;
+    background-color: #131313;
+
+    .panel2-1 {
+        padding: 10px 80px;
+
+        h2 {
+            color: white;
+            font-size: 30px;
+            margin-top: 40px;
+        }
+
+        .panel2-2 {
+            margin-top: 20px;
+            width: 240px;
+            height: 140px;
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            margin-left: 30px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: .4s;
+        }
+
+        .panel2-2:hover {
+            -ms-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        .tremors {
+            background-image: url('./img/tremors.jpg');
+        }
+
+        .ett {
+            background-image: url('./img/ett.jpg');
+        }
+
+        .vfv {
+            background-image: url('./img/vfv.jpg');
+        }
+
+        .interstellar {
+            background-image: url('./img/interstellar.jpg');
+        }
+
+        .ts {
+            background-image: url('./img/ts.jpg');
+        }
+
+        .rambo {
+            background-image: url('./img/rambo.jpg');
+        }
+
+        .rocky {
+            background-image: url('./img/rocky.jpg');
+        }
+
+        .bab {
+            background-image: url('./img/bab.jpg');
+        }
+
+        .jumanji {
+            background-image: url('./img/jumanji.jpg');
+        }
+
+        .nw {
+            background-image: url('./img/nw.jpg');
+        }
+
+        .twd {
+            background-image: url('./img/twd.jpg');
+        }
+
+        .bb {
+            background-image: url('./img/bb.jpg');
+        }
+
+        .pb {
+            background-image: url('./img/pb.jpg');
+        }
+
+        .bcs {
+            background-image: url('./img/bcs.jpg');
+        }
+
+        .vikings {
+            background-image: url('./img/vikings.jpg');
+        }
+
+        .manifest {
+            background-image: url('./img/manifest.jpg');
+        }
+
+        .the100 {
+            background-image: url('./img/the100.jpg');
+        }
+
+        .thewitcher {
+            background-image: url('./img/thewitcher.jpg');
+        }
+
+        .lucifer {
+            background-image: url('./img/lucifer.jpg');
+        }
+
+        .ftwd {
+            background-image: url('./img/ftwd.jpg');
+        }
+    }
+}
+
+.bellpanel {
+    width: 150px;
+    height: 300px;
+    top: 80px;
+    right: 30px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.817);
+}
+
+.userpanel {
+    width: 200px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.817);
+    top: 80px;
+    right: 0px;
+    position: fixed;
+
+    li {
+        list-style: none;
+        margin-top: 30px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: rgb(189, 189, 189);
+            text-decoration: underline;
+        }
+    }
+}
+
+.right-side {
+    width: 200px;
+    height: 40vh;
+    background-color: rgba(21, 21, 21, 0.81);
+    position: fixed;
+    right: 0;
+    top: 80px;
+
+    ul {
+        li {
+            list-style: none;
+            padding: 15px 0px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                transition: 0.2s;
+            }
+
+            a:hover {
+                color: rgb(184, 184, 184);
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+#dropdownnn {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 30px;
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .right-navbar {
+        a {
+            display: none;
+        }
+    }
+
+    #dropdownnn {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .left-navbar {
+        ul {
+            li {
+                display: none;
+            }
+        }
+    }
+}
